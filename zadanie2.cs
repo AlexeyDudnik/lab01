@@ -1,5 +1,5 @@
 using System;
-class Rectangle
+class MyRectangle
 {
     private double SideA;
     private double SideB;
@@ -31,7 +31,7 @@ class Progr
     {
         double SideA = double.Parse(Console.ReadLine());
         double SideB = double.Parse(Console.ReadLine());
-        Rectangle rectangle = new Rectangle(SideA, SideB);
+        Rectangle rectangle = new MyRectangle(SideA, SideB);
         Console.WriteLine(rectangle.Area);
         Console.WriteLine(rectangle.Perimetr);
     }
