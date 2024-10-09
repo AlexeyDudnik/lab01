@@ -19,7 +19,7 @@ public class Point
         get { return Y; }
     }
 }
-class Figure
+public class Figure
 {
     private Point[] points;
     public string Name {get;set;}
