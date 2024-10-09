@@ -1,5 +1,5 @@
 using System;
-class Point
+public class Point
 {
     private int x;
     private int y;
@@ -11,7 +11,7 @@ class Point
         this.y = y;
     }
 }
-class Figure
+public class Figure
 {
     private Point[] points;
     public string Name { get; set; }
