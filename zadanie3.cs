@@ -1,7 +1,7 @@
 using System;
 using System.Reflection.Metadata;
 
-class Point
+public class Point
 {
     private double X;
     private double Y;
