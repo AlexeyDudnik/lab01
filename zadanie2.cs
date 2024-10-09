@@ -1,5 +1,5 @@
 using System;
-class MyRectangle
+public class MyRectangle
 {
     private double SideA;
     private double SideB;
